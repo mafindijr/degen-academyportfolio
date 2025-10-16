@@ -1,5 +1,5 @@
-import React from 'react'
-import Header from "./header.tsx"
+
+import Header from "./components/header"
 import HeroSection from ""
 
 export default function App() {
