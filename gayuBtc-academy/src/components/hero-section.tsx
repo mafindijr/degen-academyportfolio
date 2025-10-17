@@ -11,7 +11,7 @@ export default function HeroSection () {
               <div className="@[480px]:p-4">
                 <div
                   className="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-start justify-end px-4 pb-10 @[480px]:px-10"
-                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBPWhperoaRc8koe9c3xLKAASufuCA2pSBnha4HynrnmYt3Wu5bPWqkHBz06bR42HgdLiyHUluP_8B2ajDnQTXT1k8XcIxeosewkrVS6uqKPzVvuqCxTcPq5VoncgeYbjfDG9vNCFxrzJtrL2t4U4kE90Hj4ZS1OYc4EvTTAbIYSyr82Zz2W4BB0jxpzQOCwNQlGaoBh7bhFaQhJaa6Bh3Saq9CFDCjoUINeDGRxHpbzSIKkYrk3aMpaddlMLgsLIqCxpJPYh8SXIo");'
+                  style={{backgroundImage: `linearGradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBPWhperoaRc8koe9c3xLKAASufuCA2pSBnha4HynrnmYt3Wu5bPWqkHBz06bR42HgdLiyHUluP_8B2ajDnQTXT1k8XcIxeosewkrVS6uqKPzVvuqCxTcPq5VoncgeYbjfDG9vNCFxrzJtrL2t4U4kE90Hj4ZS1OYc4EvTTAbIYSyr82Zz2W4BB0jxpzQOCwNQlGaoBh7bhFaQhJaa6Bh3Saq9CFDCjoUINeDGRxHpbzSIKkYrk3aMpaddlMLgsLIqCxpJPYh8SXIo")`}}
                 >
                   <div className="flex flex-col gap-2 text-left">
                     <h1
@@ -31,6 +31,8 @@ export default function HeroSection () {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
     </main>
   )
 }
